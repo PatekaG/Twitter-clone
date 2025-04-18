@@ -1,0 +1,48 @@
+@media (max-width: 768px) {
+
+    .trending {
+        display: none;
+    }
+    
+    .navbar {
+        display: none;
+    }
+
+    .items span {
+        display: none;
+    }
+
+    .post-button{
+        display: none;
+    }
+
+    .profile-section {
+        display: none;
+    }
+
+    .navbar-profile-info svg {
+        display: none;
+    }
+
+    .navbar {
+        margin-left: 20px;
+    }
+
+    .footer-icon-items {
+        display: flex;
+        width: 100%;
+        background-color: rgb(245, 245, 245);
+        opacity: 80%;
+        gap: 80px;
+        padding: 20px;
+        position: sticky;
+        bottom: 0;
+    }
+
+    .items svg  {
+        height: 33px;
+        width: 50px;;
+        fill: black;
+    }
+}
+
