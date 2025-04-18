@@ -124,7 +124,6 @@ body {
     border-radius: 20px;
 }
 
-
 /* MAIN CONTENT TWEETS */
 
 .main-content {
@@ -469,6 +468,7 @@ body {
     border-radius: 4px;
     margin-left: 15px;
 }
+
 /* SIDEBAR SUBSCRIBE SECTION */
 
 .trending {
@@ -479,13 +479,6 @@ body {
     padding-top: 5px;
     position: sticky;
     top: 0;
-    /* max-height: 100vh;
-    overflow-y: hidden;
-    z-index: 1; */
-
-    /* max-height: 100vh;
-    position: sticky;
-    top: 0; */
 }
 
 .search {
@@ -497,6 +490,8 @@ body {
     padding: 15px;
     align-items: center;
     background: black;
+    position: sticky;
+    top: 0; 
 }
 
 .search i {
@@ -640,6 +635,7 @@ h3 {
     background: rgb(35, 35, 35);
     border-radius: 0 0 13px 13px;
 }
+
 /* Who To Follow */
 
 .follow-section {
